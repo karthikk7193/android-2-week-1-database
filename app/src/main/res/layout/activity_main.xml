@@ -36,12 +36,12 @@
                     android:id="@+id/am_toolbar"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
-                    app:layout_collapseMode="pin"
-                    app:title="Search your notes"
-                    app:titleTextColor="@android:color/black"
                     app:contentInsetStartWithNavigation="24dp"
+                    app:layout_collapseMode="pin"
+                    app:navigationIcon="@drawable/ic_menu_black_24dp"
                     app:popupTheme="@style/AppTheme.PopupOverlay"
-                    app:navigationIcon="@drawable/ic_menu_black_24dp"/>
+                    app:title="@string/SearchYourNotes"
+                    app:titleTextColor="@android:color/black" />
 
             </androidx.cardview.widget.CardView>
 
@@ -83,12 +83,12 @@
             android:id="@+id/am_add_note"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textSize="16dp"
             android:gravity="center"
-            android:textStyle="bold"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
-            android:text="Take a note..."/>
+            android:text="@string/TakeANote"
+            android:textSize="16dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TodoRoom</string>
+    <string name="app_name">Notes App</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -92,4 +92,10 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_note">NoteActivity</string>
+    <string name="TakeANote">Take a note</string>
+    <string name="SearchYourNotes">Search your notes</string>
+    <string name="Content">Content</string>
+    <string name="Note">Note</string>
+    <string name="TitleinHome">Title</string>
+    <string name="TitleInNote">Title</string>
 </resources>

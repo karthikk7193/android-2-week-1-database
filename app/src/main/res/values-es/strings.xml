@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicación de notas</string>
+    <string name="Content">Contenido</string>
+    <string name="Note">Nota</string>
+    <string name="SearchYourNotes">Busca tus notas</string>
+    <string name="TakeANote">Toma nota</string>
+    <string name="TitleInNote">Título</string>
+    <string name="TitleinHome">Título</string>
+    <string name="action_settings">Configuraciones</string>
+</resources>

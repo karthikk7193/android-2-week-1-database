@@ -25,15 +25,15 @@
             android:id="@+id/vnc_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
             android:layout_marginBottom="8dp"
-            tools:text="Title"/>
+            android:textStyle="bold"
+            tools:text="@string/TitleinHome" />
 
         <TextView
             android:id="@+id/vnc_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="content"/>
+            tools:text="@string/Content" />
 
     </LinearLayout>
 

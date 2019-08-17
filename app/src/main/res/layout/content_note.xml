@@ -30,18 +30,18 @@
                 android:id="@+id/an_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
+                android:backgroundTint="@android:color/white"
+                android:hint="@string/TitleInNote"
                 android:textSize="24dp"
-                android:hint="Title"
-                android:backgroundTint="@android:color/white"/>
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/an_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
-                android:hint="Note"
-                android:backgroundTint="@android:color/white"/>
+                android:backgroundTint="@android:color/white"
+                android:hint="@string/Note"
+                android:textSize="18dp" />
 
         </LinearLayout>
 
